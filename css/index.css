@@ -1,3 +1,10 @@
+.tipity-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +175,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -179,11 +189,20 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+header {
+  width: 880px;
+  margin: 0 auto;
+  display: flex;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.home .content-section .bus {
+  margin: 0 auto;
+  width: 80%;
 }
 .home .content-section .text-content {
   width: 48%;
