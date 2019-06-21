@@ -175,8 +175,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
+header {
   display: flex;
+}
+header .tippity-top {
+  display: flex;
+  margin-top: 10px;
+  width: 880px;
+}
+header .tippity-top h1 {
+  width: 440px;
+  margin-left: 30px;
+}
+header .tippity-top nav a {
+  width: 440px;
 }
 .footer {
   width: 100%;
@@ -191,18 +203,25 @@ nav {
 }
 header {
   width: 880px;
-  margin: 0 auto;
+  margin: 30px 0;
+  border-bottom: 1px dashed lightgray;
+}
+.bus {
   display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  width: 48%;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed lightgray;
+}
+.bus h1 {
+  padding: 10px;
 }
 .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.home .content-section .bus {
-  margin: 0 auto;
-  width: 80%;
 }
 .home .content-section .text-content {
   width: 48%;
