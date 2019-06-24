@@ -1,1 +1,46 @@
 // Navigation Styles here
+
+header {
+  @media @phone {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 85vw;
+    margin: 0 auto;
+  }
+
+  display: flex;
+  margin: 10px auto;
+  width: 800px;
+  align-content: center;
+  border-bottom: 1px dashed grey;
+
+  nav {
+    @media @phone {
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      width: 85vw;
+      justify-content: center;
+    }
+
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      @media @phone {
+        justify-content: center;
+      }
+      margin-top: 10px;
+      display: flex;
+      width: 90%;
+    }
+    a {
+      align-content: center;
+      margin: 20px 10px;
+      width: 60px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
