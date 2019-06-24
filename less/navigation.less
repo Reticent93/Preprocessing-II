@@ -1,24 +1,47 @@
 // Navigation Styles here
 
 header {
+
+  @media @phone {
+    display:flex;
+    flex-direction: column-reverse;
+    width: 85vw;
+    margin: 0 auto;
+  }
+  
   display: flex;
   margin: 10px auto;
   width: 880px;
   align-content: center;
+  border-bottom: 1px dashed grey;
 
   nav {
+
+    @media @phone {
+      display:flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      width: 85vw;
+      justify-content: center;
+    }
+
     width: 880px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 
     h1 {
+
+      @media @phone {
+        justify-content: center;
+      }
+      margin-top:10px;
       display: flex;
       width: 90%;
     }
     a {
       align-content: center;
-      margin: 10px 10px;
+      margin: 20px 10px;
       width: 60px;
       text-decoration: none;
       color: black;
