@@ -170,18 +170,26 @@ img {
 }
 header {
   display: flex;
-}
-header .tippity-top {
-  display: flex;
-  margin-top: 10px;
+  margin: 10px auto;
   width: 880px;
+  align-content: center;
 }
-header .tippity-top h1 {
-  width: 440px;
-  margin-left: 30px;
+header nav {
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
-header .tippity-top nav a {
-  width: 440px;
+header nav h1 {
+  display: flex;
+  width: 90%;
+}
+header nav a {
+  align-content: center;
+  margin: 10px 10px;
+  width: 60px;
+  text-decoration: none;
+  color: black;
 }
 .footer {
   width: 100%;
@@ -194,77 +202,72 @@ header .tippity-top nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
-header {
-  width: 880px;
-  margin: 30px 0;
-  border-bottom: 1px dashed lightgray;
-}
-.bus {
+body .bus {
   display: flex;
   flex-wrap: wrap;
   margin: 30px auto;
-  width: 48%;
+  width: 880px;
   padding-bottom: 20px;
   border-bottom: 2px dashed lightgray;
 }
-.bus h1 {
+body .h1 {
   padding: 10px;
 }
-.home .content-section {
+body .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .content-section .text-content {
+body .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.home .content-section .img-content {
+body .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.home .content-section .img-content img {
+body .home .content-section .img-content img {
   border-radius: 10px;
 }
-.home .inverse-content {
+body .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-.home .inverse-content .text-content {
+body .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.home .inverse-content .img-content {
+body .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
-.home .btn {
+body .home .btn {
   display: inline-block;
-  height: 45px;
+  height: 40px;
   font-size: 2rem;
   border-radius: 10px;
   width: 200px;
   color: white;
   text-align: center;
-  background-color: #17A2B8;
+  background-color: #17a2b8;
   margin: 0 auto;
   padding: 10px;
 }
-.home .content-destination {
+body .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
-.home .content-destination img {
+body .home .content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+body .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .destination {
+body .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
